@@ -1,0 +1,108 @@
+name: Bug Report
+description: Report a bug or issue with the card
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen
+      placeholder: I expected...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem
+      placeholder: Paste or drag screenshots here
+
+  - type: input
+    id: card-version
+    attributes:
+      label: Card Version
+      description: What version of the card are you using?
+      placeholder: e.g., 0.5.0
+    validations:
+      required: true
+
+  - type: input
+    id: ha-version
+    attributes:
+      label: Home Assistant Version
+      description: What version of Home Assistant are you running?
+      placeholder: e.g., 2024.11.0
+    validations:
+      required: true
+
+  - type: input
+    id: vtherm-version
+    attributes:
+      label: Versatile Thermostat Version
+      description: What version of the Versatile Thermostat integration?
+      placeholder: e.g., 8.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What browser are you using?
+      placeholder: e.g., Chrome 120, Safari 17, Firefox 121
+    validations:
+      required: true
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Card Configuration
+      description: Your card YAML configuration
+      render: yaml
+      placeholder: |
+        type: custom:versatile-thermostat-ui-card
+        entity: climate.my_thermostat
+        ...
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Browser Console Logs
+      description: Any errors from the browser console (F12 → Console)
+      render: shell
+      placeholder: Paste console errors here
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here

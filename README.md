@@ -12,6 +12,7 @@
   - [Goals](#goals)
 - [Installation](#installation)
   - [Options](#options)
+- [Development](#development)
 - [Actions](#actions)
   - [Change the preset temperature](#change-the-preset-temperature)
   - [Disable the auto-fan mode](#disable-the-auto-fan-mode)
@@ -78,6 +79,16 @@ The card configuration:
 For installation you should have [HACS](https://hacs.xyz/docs/setup/download/) installed. Then add this repository https://github.com/jmcollin78/versatile-thermostat-ui-card in HACS and install the card. You have to reload you browser after installation.
 
 Then you can add the new card into your dashboard.
+
+# Development
+
+**🚀 Quick Start with GitHub Codespaces** (Recommended)
+
+Click the **Code** button → **Codespaces** → **Create codespace**. Everything will be set up automatically!
+
+**Local Development**
+
+See [DEVELOPMENT.md](DEVELOPMENT.md) for complete setup instructions, project structure, and contribution guidelines.
 
 ## Options
 
