@@ -16,10 +16,10 @@
         "disable_dry": "Zakázať sušenie",
         "disable_off": "Vypnúť",
         "disable_menu": "Zakázať menu",
+        "set_current_as_main": "Vymeňte cieľ za miesta s aktuálnou teplotou",
         "disable_safety_warning": "Zakázať bezpečnostné správy",
         "disable_buttons": "Zakázať plus/mínus tlačidlá",
-        "eco_temperature": "Eco teplota",
-        "set_current_as_main": "Vymeňte cieľ za miesta s aktuálnou teplotou"
+        "eco_temperature": "Eco teplota"
       }
     }
   },

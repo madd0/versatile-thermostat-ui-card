@@ -55,7 +55,6 @@
     "auto_fan_low": "Niedrig",
     "auto_fan_medium": "Mittel",
     "auto_fan_high": "Hoch",
-    "auto_fan_turbo": "Turbo",
     "fan_low": "Niedrig",
     "fan_low_mid": "Niedrig-mittel",
     "fan_mid": "Mittel",
@@ -71,6 +70,7 @@
     "auto_start_stop_enable": "Aktiviert/deaktiviert Auto-Start/Stop",
     "auto_start_stop_label": "Auto-Start/Stop",
     "temp_unavailable": "-",
-    "sleep": "Schlafmodus"
+    "sleep": "Schlafmodus",
+    "auto_fan_turbo": "Turbo"
   }
 }

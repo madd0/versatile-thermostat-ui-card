@@ -15,8 +15,8 @@
         "disable_fan_only": "Desactivar Ventilação",
         "disable_dry": "Desactivar Secagem",
         "disable_off": "Desactivar Off",
-        "eco_temperature": "Modo Eco",
-        "set_current_as_main": "Mudar para a temperatura local actual"
+        "set_current_as_main": "Mudar para a temperatura local actual",
+        "eco_temperature": "Modo Eco"
       }
     }
   },

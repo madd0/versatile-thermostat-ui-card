@@ -15,8 +15,8 @@
         "disable_fan_only": "Csak ventillátor kikapcsolás",
         "disable_dry": "Szárítás kikapcsolás",
         "disable_off": "Kikapcsolás inaktiválás",
-        "eco_temperature": "Eco hőmérséklet",
-        "set_current_as_main": "Aktuális hőmérséklet használata"
+        "set_current_as_main": "Aktuális hőmérséklet használata",
+        "eco_temperature": "Eco hőmérséklet"
       }
     }
   },
